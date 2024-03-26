@@ -1,6 +1,8 @@
 # ProgettoSoftware
+## Business Analyst:
+von Waldorff Christian
 
-## Developers: 
+## Dev Team:
 Anzaldi Luca 
 Nutricato Giuseppe 
-von Waldorff Christian
+
