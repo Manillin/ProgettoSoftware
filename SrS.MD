@@ -166,7 +166,7 @@ It is only required _1hour_ beginner-course at the following link [Beginner tuto
 
 Refines what’s in 2.1 and 2.2
 › Input and output data formats
-<img src="img/diagrammaSrS.png" width=50% alt="f1"></img>
+![](./img/diagrammaSrS.png)
 
 ## 3.2 Functional requirements
 
