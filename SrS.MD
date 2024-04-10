@@ -161,3 +161,18 @@ It is only required *1hour* beginner-course at the following link [Beginner tuto
 
 ....
 
+
+# 3. Requirements
+
+## 3.1 System interface and frontend
+
+...
+
+## 3.2 Functional requirements
+
+...
+
+## 3.3 Non-functional requirements
+
+...
+
