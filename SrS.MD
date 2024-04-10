@@ -55,10 +55,10 @@ The user can access the information(rental price,taxes,size,...) using a Site we
 
 ``` json
 {
-  "codice": "MO+40-70",
-  "utilizzo": "Agricolo",
-  "lato": 32.04,
-  "proprietario": "RSSMRA75A01F205Z"
+  "area": "123.43",
+  "tasse_proprieta": 50.00,
+  "prezzo_affitto": 400.00,
+  "valore_proprieta": 3000000.00
 }
 ```
 
@@ -166,13 +166,17 @@ It is only required *1hour* beginner-course at the following link [Beginner tuto
 
 ## 3.1 System interface and frontend
 
-...
+Refines what’s in 2.1 and 2.2
+› Input and output data formats, and protocols
 
 ## 3.2 Functional requirements
 
-...
+*Tax calculator:*
 
-## 3.3 Non-functional requirements
+<img src="img/tax_calculator.png" width=50% alt="f1"></img>
 
-...
+*Area calculator:*
+
+<img src="img/area_calculator.png" width=50% alt="f2"></img>
+
 
