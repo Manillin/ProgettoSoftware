@@ -142,3 +142,22 @@ block-beta
 The system interface will allow any non-specialized person to use the software.  
 It is only required *1hour* beginner-course at the following link [Beginner tutorial](https://fake_link).
 
+## 2.4 General constraints
+
+- The system must be developed using Java as the primary programming language.
+- The database must be accessed using MongoDB.
+- The system must be accessible on Windows, Linux, as well as through smartphones.
+- The maximum response time for application requests is 5 seconds, while the maximum downtime is 1 minute.
+
+## 2.5 Assumptions and dependencies
+
+- The lands are already registered in the system.
+- Tax calculation is based on land use type.
+- Sensitive information such as the tax code must be obscured for unauthorized users.
+- The availability of the service depends on the server's stability.
+- The correct execution of the application depends on the proper implementation of interfaces with the MongoDB database.
+
+## 2.6 Apportioning of requirements
+
+....
+
