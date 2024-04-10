@@ -35,7 +35,7 @@ This document serves to outline the requirements for the development of a web-ba
 block-beta
   User space:1 Server_web
   User --> Server_web
-  Server_web --> User 
+  Server_web --> User
   Server_web space:1 DB[("DB")]
   Server_web --> DB
   DB --> Server_web
@@ -51,14 +51,14 @@ The user can access the information(rental price,taxes,size,...) using a Site we
 
 ### 2.1.4 Software interface
 
-*Example of API JSON response:*
+_Example of API JSON response:_
 
-``` json
+```json
 {
   "area": "123.43",
-  "tasse_proprieta": 50.00,
-  "prezzo_affitto": 400.00,
-  "valore_proprieta": 3000000.00
+  "tasse_proprieta": 50.0,
+  "prezzo_affitto": 400.0,
+  "valore_proprieta": 3000000.0
 }
 ```
 
@@ -66,7 +66,7 @@ The user can access the information(rental price,taxes,size,...) using a Site we
 
 These are the main protocols uses:
 
-*REQUEST:*
+_REQUEST:_
 
 ```mermaid
 block-beta
@@ -77,7 +77,7 @@ block-beta
   Server_web -- "Mongo query"--> DB
 ```
 
-*RESPONSE:*
+_RESPONSE:_
 
 ```mermaid
 block-beta
@@ -94,7 +94,7 @@ block-beta
 
 ## 2.2 Product functions
 
-The product has *4* main functions:
+The product has _4_ main functions:
 
 ### 1. Area calculator
 
@@ -111,7 +111,7 @@ block-beta
 ```mermaid
 block-beta
   Input space:4 Function2
-  Input -- "sizes , tax" --> 
+  Input -- "sizes , tax" -->
   Function2 space:2 Output
   Function2 -- "Property taxes(€)" --> Output
 ```
@@ -121,7 +121,7 @@ block-beta
 ```mermaid
 block-beta
   Input space:4 Function3
-  Input -- "sizes , tax , rental time" --> 
+  Input -- "sizes , tax , rental time" -->
   Function3 space:2 Output
   Function3 -- "Rental prices(€)" --> Output
 ```
@@ -131,16 +131,15 @@ block-beta
 ```mermaid
 block-beta
   Input space:4 Function4
-  Input -- "sizes , tax , benefits , location" --> 
+  Input -- "sizes , tax , benefits , location" -->
   Function4 space:2 Output
   Function4 -- "Property taxes(€)" --> Output
 ```
 
-
 ## 2.3 User characteristics
 
 The system interface will allow any non-specialized person to use the software.  
-It is only required *1hour* beginner-course at the following link [Beginner tutorial](https://fake_link).
+It is only required _1hour_ beginner-course at the following link [Beginner tutorial](https://fake_link).
 
 ## 2.4 General constraints
 
@@ -161,22 +160,20 @@ It is only required *1hour* beginner-course at the following link [Beginner tuto
 
 ....
 
-
 # 3. Requirements
 
 ## 3.1 System interface and frontend
 
 Refines what’s in 2.1 and 2.2
-› Input and output data formats, and protocols
+› Input and output data formats
+<img src="img/diagrammaSrS.png" width=50% alt="f1"></img>
 
 ## 3.2 Functional requirements
 
-*Tax calculator:*
+_Tax calculator:_
 
 <img src="img/tax_calculator.png" width=50% alt="f1"></img>
 
-*Area calculator:*
+_Area calculator:_
 
 <img src="img/area_calculator.png" width=50% alt="f2"></img>
-
-
