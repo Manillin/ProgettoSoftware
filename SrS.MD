@@ -164,9 +164,7 @@ It is only required _1hour_ beginner-course at the following link [Beginner tuto
 
 ## 3.1 System interface and frontend
 
-Refines what’s in 2.1 and 2.2
-› Input and output data formats
-![](./img/diagrammaSrS.png)
+<img src="img/diagrammaSrS.png" width=50% alt="f1"></img>
 
 ## 3.2 Functional requirements
 
